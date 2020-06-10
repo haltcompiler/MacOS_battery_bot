@@ -3,6 +3,6 @@ After USB type C ports, i really miss my MagSafe connector and it's led notifica
 
 # Edit botid,botsecret and chatId and this should work
 
-Requirements
-pip install pync 
-pip install requests
+Requirements  
+pip install pync   
+pip install requests  
