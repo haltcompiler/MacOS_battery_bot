@@ -20,7 +20,7 @@ while True:
 	url="https://api.telegram.org/[botid]:[bot_secret]/sendmessage?chat_id=[chat_id]&text="
 	url+=get_out(command)
 	requests.get(url)
-	time.sleep(1)
+	time.sleep(60*5)
 	if get_out(command)=='100%':
 		Notifier.notify('Battery is Fully Chargred!', title='Battery')
 		exit()
